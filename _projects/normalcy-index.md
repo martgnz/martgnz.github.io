@@ -1,6 +1,6 @@
 ---
 title: "The global normalcy index"
-link: https://www.economist.com/graphic-detail/2021/08/11/for-programmers-remote-working-is-becoming-the-norm
+link: https://www.economist.com/graphic-detail/tracking-the-return-to-normalcy-after-covid-19
 date: 2021-07-01
 publisher: The Economist
 role: Design, graphics
