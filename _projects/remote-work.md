@@ -7,4 +7,4 @@ role: Data, reporting, graphics
 image: assets/images/remote-work.png
 ---
 
-I scraped +70,000 Hacker News job postings to analyse the rise of remote working in software engineering. Job postings that mentioned remote were on the rise before 2020 and have more than doubled since the start of the pandemic, while onsite positions have fell rapidly.
+I scraped +70,000 *Hacker News* job postings to analyse the rise of remote working in software engineering. Job postings that mentioned remote were on the rise before 2020 and have more than doubled since the start of the pandemic, while onsite positions have fell rapidly.
