@@ -1,13 +1,21 @@
 ---
 title: Martín González
 description: >
-  I am a visual journalist at The Economist based in London, where I make graphics and interactives. I am also one of the co-founders of Politibot, a chatbot about Spanish and European politics
+  I am a visual journalist at The Economist based in London, where I make graphics and interactives
 image: assets/images/uk-election.png
 layout: home
 ---
 
 I am a visual journalist at _The Economist_ based in London, where I make graphics and interactives. I am also one of the co-founders of [Politibot](https://www.niemanlab.org/2017/07/on-the-heels-of-its-own-success-spains-politibot-is-opening-up-a-chatbot-builder-for-other-outlets/), a chatbot about Spanish and European politics. Previously, I worked in Madrid at [Populate](https://populate.tools/), a civic tech studio.
 
-Recently, I did a [Reddit AMA](https://old.reddit.com/r/dataisbeautiful/comments/cptmcw/were_evan_hensleigh_and_mart%C3%ADn_gonz%C3%A1lez/) about interactive graphics with my colleague Evan Hensleigh, gave a workshop about tooltips at [visfest unconf](https://web.archive.org/web/20191224103345/http://visfest.com/unconf2019/) in Chicago, and [taught D3](https://twitter.com/DataJournalism1/status/1124601499772956677) to data journalism students in Barcelona.
+Recently, I have spoken about [Spanish geographic data](https://www.youtube.com/watch?v=SwoYcXqq65Y), [election graphics](https://www.youtube.com/watch?v=4pcYs5-TIoQ) and [tooltips](https://twitter.com/d3unconf/status/1166092427096141824). I also did a [Reddit AMA](https://old.reddit.com/r/dataisbeautiful/comments/cptmcw/were_evan_hensleigh_and_mart%C3%ADn_gonz%C3%A1lez/) some time ago.
 
-*Last updated on {{ site.time | date: '%b %d, %Y' }}*.
+<em>Last updated on {% assign d = site.time | date: "%-d" %}  {% assign m = site.time | date: "%B" %} {% case m %}
+  {% when 'April' or 'May' or 'June' or 'July' %}{{ m }}
+  {% when 'September' %}Sept.
+  {% else %}{{ site.time | date: "%b" }}.
+{% endcase %}{% case d %}
+  {% when '1' or '21' or '31' %}{{ d }}st
+  {% when '2' or '22' %}{{ d }}nd
+  {% when '3' or '23' %}{{ d }}rd
+{% else %}{{ d }}th{% endcase %}, {{ site.time | date: "%Y" }}</em>.

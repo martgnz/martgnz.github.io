@@ -9,61 +9,7 @@ layout: default
 
   <section class="projects wrap-wide mb2">
     {% for project in site.projects reversed %}
-    <article class="project">
-      {% if project.link %}
-        <a href="{{ project.link }}">
-      {% endif %}
-        {% if project.video %}
-          <figure class="mb1">
-            <video autoplay loop muted alt="{{ project.title }}" src="{{ project.video | relative_url }}"></video>
-          </figure>
-          {% else %}
-            {% if project.image.first %}
-              <div class="image-grid">
-                {% for image in project.image %}
-                  <img alt=" {{ project.title }}" src="{{ image | relative_url }}" />
-                {% endfor %}
-              </div>
-            {% else %}
-            <figure class="mb1">
-              <img alt=" {{ project.title }}" src="{{ project.image | relative_url }}" />
-            </figure>
-            {% endif %}
-          {% endif %}
-      {% if project.link %}
-        </a>
-      {% endif %}
-
-      <div class="project-info">
-        <div class="side">
-          <h3>
-            {% if project.link %}
-            <a href="{{ project.link }}">{{ project.title }}</a>
-            {% else %}
-              {{ project.title }}
-            {% endif %}
-          </h3>
-          <p class="publisher grey mb0"><em>{{ project.publisher }}</em></p>
-          <p class="time grey">
-            <time>{{ project.date | date: "%b %d, %Y" }}</time>
-          </p>
-          {% if project.role %}
-          <p class="role grey">
-            {{ project.role | markdownify | remove: '<p>' | remove: '</p>' }}
-          </p>
-          {% endif %}
-
-          {% if project.coauthors %}
-          <p class="coauthors grey">
-            With {{ project.coauthors | markdownify | remove: '<p>' | remove: '</p>' }}
-          </p>
-          {% endif %}
-        </div>
-        <div class="block">
-          {{ project.content | markdownify }}
-        </div>
-      </div>
-    </article>
+      {% include project.html project=project  %}
     {% endfor %}
   </section>
 </main>
