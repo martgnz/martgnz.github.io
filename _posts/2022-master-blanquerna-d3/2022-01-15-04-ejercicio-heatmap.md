@@ -9,7 +9,7 @@ Ahora vamos a hacer un heatmap como el que está en la home. Abramos
 
 ¡Si nos da tiempo podremos añadir un tooltip!
 
-<p class="spoiler">Podemos ver el heatmap completo en <a href="https://github.com/martgnz/martgnz.github.io/tree/master/assets">esta dirección</a>.</p>
+<p class="spoiler">Podemos ver el heatmap completo en <a href="https://github.com/martgnz/martgnz.github.io/blob/master/assets/2022/master-blanquerna-d3/javascript/heatmap_final.js">esta dirección</a>.</p>
 
 <nav>
   <a class="previous" href="03-ejercicio-barras.html">&laquo; Ejercicio barras</a>
