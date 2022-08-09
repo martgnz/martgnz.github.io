@@ -6,7 +6,7 @@ image: assets/images/uk-election.png
 layout: home
 ---
 
-I am a graphics editor at _The New York Times_ based in NYC. Before, I was a visual journalist at _The Economist_. I was also one of the co-founders of [Politibot](https://www.niemanlab.org/2017/07/on-the-heels-of-its-own-success-spains-politibot-is-opening-up-a-chatbot-builder-for-other-outlets/), a chatbot about Spanish and European politics. I also worked in Madrid at [Populate](https://populate.tools/), a civic tech studio and at [other](https://www.elespanol.com/actualidad/20160512/124237684_0.html) [newspapers](https://www.eldiario.es/) in Spain.
+I am a graphics editor at _The New York Times_ based in NYC. Previously, I was a visual journalist at _The Economist_ and I was one of the co-founders of [Politibot](https://www.niemanlab.org/2017/07/on-the-heels-of-its-own-success-spains-politibot-is-opening-up-a-chatbot-builder-for-other-outlets/), a chatbot about Spanish and European politics. I also worked at [Populate](https://populate.tools/), a civic tech studio based in Madrid and at [other](https://www.elespanol.com/actualidad/20160512/124237684_0.html) [newspapers](https://www.eldiario.es/) in Spain.
 
 Recently, I have spoken about [Spanish geographic data](https://www.youtube.com/watch?v=SwoYcXqq65Y), [election graphics](https://www.youtube.com/watch?v=4pcYs5-TIoQ) and [tooltips](https://twitter.com/d3unconf/status/1166092427096141824). I also did a [Reddit AMA](https://old.reddit.com/r/dataisbeautiful/comments/cptmcw/were_evan_hensleigh_and_mart%C3%ADn_gonz%C3%A1lez/) some time ago.
 
