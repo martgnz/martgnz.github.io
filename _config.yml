@@ -16,8 +16,7 @@
 title: Martín González Gómez
 email: m@martingonzalez.net
 description: Graphics editor at The New York Times
-tagline: Graphics editor
-employer: The New York Times
+tagline: Visual journalist
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://martingonzalez.net" # the base hostname & protocol for your site, e.g. http://example.com
 handle: martgnz
