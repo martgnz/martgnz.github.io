@@ -14,9 +14,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Martín González Gómez
-email: m@martingonzalez.net
-description: Graphics editor at The New York Times
-tagline: Visual journalist
+email: m at martingonzalez.net
+tagline: Graphics editor at The New York Times
+description: Visual journalist
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://martingonzalez.net" # the base hostname & protocol for your site, e.g. http://example.com
 handle: martgnz

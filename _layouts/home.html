@@ -8,7 +8,7 @@ layout: default
   </section>
 
   <section class="projects wrap-wide mb2">
-    {% for project in site.projects reversed %}
+    {% for project in site.data.projects %}
       {% include project.html project=project  %}
     {% endfor %}
   </section>

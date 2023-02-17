@@ -1,10 +1,4 @@
 _site
 .sass-cache
 .jekyll-metadata
-<<<<<<< HEAD
 .DS_Store
-=======
-.DS_Store
-.woff
-.woff2
->>>>>>> e65e5abc184f9f854e73c19a9e1736c01fff5427
