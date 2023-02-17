@@ -9,7 +9,7 @@ layout: default
 
   <section class="projects wrap-wide mb2">
     {% for project in site.data.projects %}
-      {% include project.html project=project  %}
+      {% include project.html project=project idx=forloop.index  %}
     {% endfor %}
   </section>
 </main>

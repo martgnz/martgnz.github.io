@@ -4,18 +4,18 @@
   {% endif %}
     {% if include.project.video %}
       <figure class="mb1">
-        <video autoplay loop muted alt="{{ include.project.title }}" src="{{ include.project.video | relative_url }}"></video>
+        <video loading="lazy" autoplay loop muted alt="{{ include.project.title }}" src="{{ include.project.video | relative_url }}"></video>
       </figure>
       {% else %}
         {% if include.project.image.first %}
           <div class="image-grid">
             {% for image in include.project.image %}
-              <img alt=" {{ include.project.title }}" src="{{ image | relative_url }}" />
+              <img loading="lazy" alt="{{ include.project.title }}" src="{{ image | relative_url }}" />
             {% endfor %}
           </div>
         {% else %}
         <figure class="mb1">
-          <img alt=" {{ include.project.title }}" src="{{ include.project.image | relative_url }}" />
+          <img {% if include.idx > 1 %}loading="lazy"{% endif %} alt="{{ include.project.title }}" src="{{ include.project.image | relative_url }}" />
         </figure>
         {% endif %}
       {% endif %}
