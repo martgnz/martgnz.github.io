@@ -1,7 +1,7 @@
 ---
 title: Martín González Gómez
 description: Graphics editor at The New York Times
-image: assets/images/elon_musk_tweets.png
+image: assets/images/elon_musk_tweets.jpg
 layout: home
 ---
 
