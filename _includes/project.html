@@ -43,19 +43,11 @@
 {% when '3' or '23' %}{{ d }}rd
 {% else %}{{ d }}th{% endcase %} {{ include.project.date | date: "%Y" }}</time>
     </p>
-    <!-- {% if include.project.role %}
-    <p class="role grey">
-      {{ include.project.role | markdownify | remove: '<p>' | remove: '</p>' }}
-    </p>
-    {% endif %} -->
 
     {% if include.project.coauthors %}
     <p class="coauthors grey">
       With {{ include.project.coauthors | markdownify | remove: '<p>' | remove: '</p>' }}
     </p>
     {% endif %}
-    <!-- <div class="block">
-      {{ include.project.content | markdownify }}
-    </div> -->
   </div>
 </article>
