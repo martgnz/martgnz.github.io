@@ -33,7 +33,7 @@
     </h3>
     <p class="publisher grey mb0"><em>{{ include.project.newspaper }}</em></p>
     <p class="time grey">
-      <time>{% assign d = include.project.date | date: "%-d" %}  {% assign m = include.project.date | date: "%B" %} {% case m %}
+      <time datetime="{{include.project.date}}">{% assign d = include.project.date | date: "%-d" %}  {% assign m = include.project.date | date: "%B" %} {% case m %}
 {% when 'April' or 'May' or 'June' or 'July' %}{{ m }}
 {% when 'September' %}Sept.
 {% else %}{{ include.project.date | date: "%b" }}.
