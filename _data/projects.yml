@@ -10,6 +10,11 @@
   newspaper: The New York Times
   image: assets/images/2023-06-26-spain-election-index-videoSixteenByNine3000-v6.png
 
+- hed: See Who Voted For and Against Raising the Debt Limit
+  link: https://www.nytimes.com/interactive/2023/05/31/us/politics/house-debt-limit-live-vote.html
+  date: 2023-05-31
+  image: assets/images/house-debt-limit-live-vote-index-videoSixteenByNine3000.jpg
+
 - hed: "Dissecting Elon Musk’s Tweets: Memes, Rants, Private Parts and an Echo Chamber"
   link: https://www.nytimes.com/interactive/2023/01/31/technology/elon-musk-tweets.html
   date: 2023-01-31
@@ -43,14 +48,7 @@
   coauthors: "[Sondre Solstad](https://twitter.com/Sondreus)"
   image: assets/images/excess-deaths-map.png
 
-- hed: There have been 7m-13m excess deaths worldwide during the pandemic
-  link: https://www.economist.com/briefing/2021/05/15/there-have-been-7m-13m-excess-deaths-worldwide-during-the-pandemic
-  date: 2021-05-15
-  newspaper: The Economist
-  image: assets/images/excess-deaths-model.png
-  coauthors: "[Sondre Solstad](https://twitter.com/Sondreus) and [Matt McLean](https://twitter.com/MatterofMatt)"
-
-- hed: Spanish digital elevation model downloader
+- hed: Spanish digital elevation models
   link: https://martingonzalez.net/ign-dem-grabber/
   date: 2021-04-11
   coauthors: "[Lluís Esquerda](https://eskerda.com/)"

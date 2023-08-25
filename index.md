@@ -1,11 +1,10 @@
 ---
 title: Martín González Gómez
-description: Graphics editor at The New York Times
 image: assets/images/maritime-traffic.jpg
 layout: home
 ---
 
-I am a [graphics editor at The New York Times](https://www.nytimes.com/by/martin-gonzalez-gomez). Before that, I was on The Economist Data Team.
+I am a graphics editor at [The New York Times](https://www.nytimes.com/by/martin-gonzalez-gomez). Before that, I was on The Economist Data Team.
 
 <em>Last updated on {% assign d = site.time | date: "%-d" %}  {% assign m = site.time | date: "%B" %} {% case m %}
   {% when 'April' or 'May' or 'June' or 'July' %}{{ m }}

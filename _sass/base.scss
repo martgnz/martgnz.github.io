@@ -10,7 +10,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 .wrap {
-  max-width: 650px;
+  max-width: 600px;
   margin: 0 auto;
 }
 .wrap-wide {
@@ -102,22 +102,6 @@ article {
 .lh-solid p {
   line-height: 1.2;
   margin-bottom: 0.1em;
-}
-.wrap {
-  max-width: 650px;
-  margin: 0 auto;
-}
-.wrap-wide {
-  max-width: 850px;
-  margin: 0 auto;
-}
-.news.wrap {
-  padding: 1em;
-  margin-bottom: 1em;
-
-  @media (min-width: 860px) {
-    padding: 1em 5em;
-  }
 }
 .about {
   margin-bottom: 3em;
