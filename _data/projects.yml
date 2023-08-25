@@ -1,14 +1,20 @@
+- hed: "Which Candidates Got the Most Speaking Time in the Republican Debate"
+  link: https://www.nytimes.com/interactive/2023/08/23/us/politics/republican-debate-live-tracker.html
+  date: 2023-08-23
+  newspaper: The New York Times
+  image: assets/images/republican-debate.png
+
+- hed: "Spain General Election Results"
+  link: https://www.nytimes.com/interactive/2023/07/23/world/europe/results-spain-election.html
+  date: 2023-07-23
+  newspaper: The New York Times
+  image: assets/images/2023-06-26-spain-election-index-videoSixteenByNine3000-v6.png
+
 - hed: "Dissecting Elon Musk’s Tweets: Memes, Rants, Private Parts and an Echo Chamber"
   link: https://www.nytimes.com/interactive/2023/01/31/technology/elon-musk-tweets.html
   date: 2023-01-31
   newspaper: The New York Times
   image: assets/images/elon_musk_tweets.jpg
-
-- hed: Your Thanksgiving Flight Might Have Turbulence. Here’s the Forecast
-  link: https://www.nytimes.com/interactive/2022/11/23/us/thanksgiving-travel-turbulence-forecast.html
-  date: 2022-11-23
-  newspaper: The New York Times
-  image: assets/images/thanksgiving_turbulence.jpg
 
 - hed: U.S. Midterm Election Results
   link: https://www.nytimes.com/interactive/2022/11/08/us/elections/results-senate.html
@@ -30,32 +36,12 @@
   coauthors: John McDermott
   image: assets/images/great-enclosure.jpg
 
-- hed: Repression in Putin’s Russia is making young activists more defiant
-  link: https://www.economist.com/interactive/repression-in-putins-russia/
-  date: 2021-11-10
-  newspaper: The Economist
-  coauthors: Miranda Mitra, Ben Shmulevitch, Lee Mears
-  image: assets/images/russian-dissidents.jpg
-
 - hed: The pandemic’s true death toll
   link: https://www.economist.com/graphic-detail/coronavirus-excess-deaths-estimates
   date: 2021-09-02
   newspaper: The Economist
   coauthors: "[Sondre Solstad](https://twitter.com/Sondreus)"
   image: assets/images/excess-deaths-map.png
-
-- hed: For programmers, remote working is becoming the norm
-  link: https://www.economist.com/graphic-detail/2021/08/11/for-programmers-remote-working-is-becoming-the-norm
-  date: 2021-08-11
-  newspaper: The Economist
-  image: assets/images/remote-work.png
-
-- hed: The global normalcy index
-  link: https://www.economist.com/graphic-detail/tracking-the-return-to-normalcy-after-covid-19
-  date: 2021-07-01
-  newspaper: The Economist
-  coauthors: "[James Fransham](https://twitter.com/JamesFransham)"
-  image: assets/images/normalcy-tracker.png
 
 - hed: There have been 7m-13m excess deaths worldwide during the pandemic
   link: https://www.economist.com/briefing/2021/05/15/there-have-been-7m-13m-excess-deaths-worldwide-during-the-pandemic
@@ -69,13 +55,6 @@
   date: 2021-04-11
   coauthors: "[Lluís Esquerda](https://eskerda.com/)"
   image: assets/images/ign-dem-grabber.png
-
-- hed: Covid-19 risk estimator
-  link: https://www.economist.com/graphic-detail/covid-pandemic-mortality-risk-estimator
-  date: 2021-03-11
-  newspaper: The Economist
-  image: assets/images/covid-19-risk-estimator.png
-  coauthors: "[Sondre Solstad](https://twitter.com/Sondreus), [Ross Greenhalf](https://twitter.com/mobdevross), [Matt McLean](https://twitter.com/MatterofMatt) and [Evan Hensleigh](https://twitter.com/futuraprime)"
 
 - hed: Mr. Scale Maker
   date: 2020-11-11
@@ -99,20 +78,6 @@
   newspaper: The Economist
   video: assets/clips/covid-19-excess-deaths.mp4
   coauthors: "[James Tozer](https://twitter.com/J_CD_T)"
-
-- hed: Allocate seats in the Spanish Congresss
-  link: https://web.archive.org/web/20220323195442/https://politibot.io/juega-a-repartir-escanos-asi-se-asignaran-segun-el-voto-el-28a/
-  date: 2019-04-08
-  newspaper: Politibot
-  video: assets/clips/seats.mp4
-  coauthors: "[Héctor Meleiro](https://twitter.com/hmeleiros) and [Eduardo Suárez](https://twitter.com/eduardosuarez)"
-
-- hed: Build a British voter
-  link: https://www.economist.com/graphic-detail/2019/02/22/profiles-of-a-divided-country
-  date: 2019-02-22
-  newspaper: The Economist
-  video: assets/clips/ternary-plot.mp4
-  coauthors: "[James Fransham](https://twitter.com/jamesfransham)"
 
 - hed: How to forecast an American’s vote
   link: https://www.economist.com/graphic-detail/2018/11/03/how-to-forecast-an-americans-vote
