@@ -1,32 +1,14 @@
-- hed: "Which Candidates Got the Most Speaking Time in the Republican Debate"
-  link: https://www.nytimes.com/interactive/2023/08/23/us/politics/republican-debate-live-tracker.html
-  date: 2023-08-23
+- hed: "U.S. Presidential Election Results"
+  link: https://www.nytimes.com/interactive/2024/11/05/us/elections/results-president.html
+  date: 2024-11-05
   newspaper: The New York Times
-  image: assets/images/republican-debate.png
-
-- hed: "Spain General Election Results"
-  link: https://www.nytimes.com/interactive/2023/07/23/world/europe/results-spain-election.html
-  date: 2023-07-23
-  newspaper: The New York Times
-  image: assets/images/2023-06-26-spain-election-index-videoSixteenByNine3000-v6.png
-
-- hed: See Who Voted For and Against Raising the Debt Limit
-  link: https://www.nytimes.com/interactive/2023/05/31/us/politics/house-debt-limit-live-vote.html
-  date: 2023-05-31
-  newspaper: The New York Times
-  image: assets/images/house-debt-limit-live-vote-index-videoSixteenByNine3000.jpg
+  image: assets/images/us-election.jpg
 
 - hed: "Dissecting Elon Musk’s Tweets: Memes, Rants, Private Parts and an Echo Chamber"
   link: https://www.nytimes.com/interactive/2023/01/31/technology/elon-musk-tweets.html
   date: 2023-01-31
   newspaper: The New York Times
   image: assets/images/elon_musk_tweets.jpg
-
-- hed: U.S. Midterm Election Results
-  link: https://www.nytimes.com/interactive/2022/11/08/us/elections/results-senate.html
-  date: 2022-11-08
-  newspaper: The New York Times
-  image: assets/images/us_midterm_2022.jpg
 
 - hed: Does the tank have a future?
   link: https://www.economist.com/interactive/international/2022/06/15/does-the-tank-have-a-future
@@ -55,11 +37,6 @@
   coauthors: "[Lluís Esquerda](https://eskerda.com/)"
   image: assets/images/ign-dem-grabber.png
 
-- hed: Mr. Scale Maker
-  date: 2020-11-11
-  link: https://martingonzalez.net/mr-scale-maker/
-  video: assets/clips/mr-scale-maker.mp4
-
 - hed: Europe’s maritime traffic
   date: 2020-11-09
   image: assets/images/maritime-traffic.jpg
@@ -84,10 +61,3 @@
   newspaper: The Economist
   video: assets/clips/american-voter.mp4
   coauthors: "[Dan Rosenheck](https://twitter.com/danrosenheck), [Evan Hensleigh](https://twitter.com/futuraprime) and [Matt McLean](https://twitter.com/MatterofMatt)"
-
-- hed: How Catalonia voted
-  link: https://web.archive.org/web/20220323195443/https://politibot.io/asi-ha-votado-cataluna/
-  date: 2017-12-21
-  newspaper: Politibot
-  video: assets/clips/how-catalonia-voted.mp4
-  coauthors: "[Eduardo Suárez](https://twitter.com/eduardosuarez)"

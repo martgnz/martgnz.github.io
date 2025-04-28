@@ -8,13 +8,14 @@ body {
   color: #333;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  margin-bottom: 10rem;
 }
 .wrap {
   max-width: 600px;
   margin: 0 auto;
 }
 .wrap-wide {
-  max-width: 850px;
+  max-width: 600px;
   margin: 0 auto;
 }
 .news.wrap {
@@ -108,4 +109,7 @@ article {
 }
 footer.wrap-wide {
   margin-bottom: 1.5em;
+}
+.updated {
+  font-size: 18px;
 }
